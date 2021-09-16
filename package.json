@@ -1,0 +1,36 @@
+{
+    "name": "@ra-lib/admin",
+    "version": "0.0.67",
+    "description": "管理系统整合库",
+    "main": "lib/index.js",
+    "module": "es/index.js",
+    "scripts": {
+        "build": "father-build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "peerDependencies": {
+        "axios": "^0.21.1",
+        "react": "^17.0.2"
+    },
+    "author": "zkboys",
+    "license": "ISC",
+    "publishConfig": {
+        "registry": ""
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "homepage": "",
+    "gitHead": "896a9cf7ce2fcffb299ba162dd2ceaf604714030",
+    "dependencies": {
+        "@ra-lib/ajax": "^0.1.22",
+        "@ra-lib/babel-plugin-attribute-wrapper": "^0.0.8",
+        "@ra-lib/components": "^0.1.74",
+        "@ra-lib/config-loader": "^0.1.6",
+        "@ra-lib/hoc": "^0.1.6",
+        "@ra-lib/hooks": "^0.1.8",
+        "@ra-lib/model": "^0.1.7",
+        "@ra-lib/util": "^0.1.21"
+    }
+}
